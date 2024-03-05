@@ -1,0 +1,28 @@
+!/src/Cache
+.tmp
+*~
+
+# OS
+.DS_Store
+
+# IDE and local environment
+.idea
+.vscode
+*.swp
+
+# Packages
+composer.lock
+package-lock.json
+node_modules
+vendor
+
+# Application
+build
+/cache
+twig-cache/*
+
+# Tests
+.phpunit.result.cache
+timber-starter-theme
+wp-content
+wordpress

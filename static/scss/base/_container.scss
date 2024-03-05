@@ -1,0 +1,13 @@
+$paddingX: 20px;
+$max-width: 100%;
+
+.container {
+    padding-left: $paddingX;
+    padding-right: $paddingX;
+}
+
+.container-fluid {
+    padding-left: $paddingX;
+    padding-right: $paddingX;
+    max-width: calc($max-width + ($paddingX * 2));
+}
